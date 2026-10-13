@@ -1,0 +1,49 @@
+{
+  "experiment": "TECHQA Phase 2 - Three-Signal RRF",
+  "date": "2026-10-12T12:15:32.471103",
+  "total_dev_questions": 310,
+  "answerable_questions": 160,
+  "unanswerable_questions": 150,
+  "retrieval_methods": [
+    "BGE-M3 semantic retrieval with existing FAISS index",
+    "Corrected full-text BM25",
+    "Title-only BM25",
+    "Reciprocal Rank Fusion (RRF)"
+  ],
+  "rrf_k": 60,
+  "corpus_documents": 28482,
+  "corpus_chunks": 151140,
+  "query_embedding_shape": [
+    160,
+    1024
+  ],
+  "faiss_vectors": 151140,
+  "metrics": {
+    "Recall@5": {
+      "hits": 102,
+      "total": 160,
+      "percentage": 63.75
+    },
+    "Recall@10": {
+      "hits": 115,
+      "total": 160,
+      "percentage": 71.88
+    },
+    "Recall@20": {
+      "hits": 133,
+      "total": 160,
+      "percentage": 83.12
+    },
+    "Recall@50": {
+      "hits": 141,
+      "total": 160,
+      "percentage": 88.12
+    },
+    "Recall@100": {
+      "hits": 146,
+      "total": 160,
+      "percentage": 91.25
+    }
+  },
+  "note": "Evaluation uses 160 answerable development questions. This is a development evaluation, not an untouched final test set."
+}

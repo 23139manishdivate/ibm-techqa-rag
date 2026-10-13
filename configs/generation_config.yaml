@@ -1,0 +1,25 @@
+# Generation configuration
+
+model:
+  name: "Qwen/Qwen1.5-7B-Chat-GPTQ-Int4"  # change to Qwen1.5-14B on stronger GPU
+  device_map: "auto"
+  load_in_4bit: true
+  torch_dtype: "float16"
+
+generation:
+  max_new_tokens: 256
+  temperature: 0.01      # near-deterministic for extractive QA
+  do_sample: false
+  repetition_penalty: 1.1
+
+prompt_template: |
+  You are a technical support assistant. Given the following IBM technote passages,
+  extract the exact verbatim answer to the question. If the answer is not in the
+  passages, respond with exactly: -
+
+  Question: {question}
+
+  Passages:
+  {context}
+
+  Answer:

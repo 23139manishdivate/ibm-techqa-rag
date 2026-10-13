@@ -1,0 +1,27 @@
+{
+  "Recall@5": {
+    "hits": 102,
+    "total": 160,
+    "percentage": 63.75
+  },
+  "Recall@10": {
+    "hits": 115,
+    "total": 160,
+    "percentage": 71.88
+  },
+  "Recall@20": {
+    "hits": 133,
+    "total": 160,
+    "percentage": 83.12
+  },
+  "Recall@50": {
+    "hits": 141,
+    "total": 160,
+    "percentage": 88.12
+  },
+  "Recall@100": {
+    "hits": 146,
+    "total": 160,
+    "percentage": 91.25
+  }
+}

@@ -1,0 +1,33 @@
+# Retrieval configuration
+
+dense:
+  model_name: "BAAI/bge-m3"
+  embedding_dim: 1024
+  batch_size: 32
+  normalize: true
+  device: "cuda"  # change to "cpu" if no GPU
+
+faiss:
+  index_path: "artifacts/indexes/techqa_faiss.index"
+  index_type: "flat_ip"  # exact search
+
+bm25:
+  full_text:
+    enabled: true
+    field: "text"
+  title_only:
+    enabled: true
+    field: "title"
+
+fusion:
+  method: "rrf"
+  rrf_k: 60
+  weights:
+    dense: 1.0
+    bm25_full: 1.0
+    bm25_title: 1.0
+
+top_k:
+  retrieval: 100   # retrieve top-100 candidates
+  reranking: 20    # pass top-20 to reranker
+  context: 5       # final chunks passed to LLM

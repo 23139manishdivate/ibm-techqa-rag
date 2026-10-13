@@ -1,0 +1,17 @@
+# Data configuration
+
+dataset:
+  train_qa: "data/processed/training_and_dev/training_Q_A.json"
+  dev_qa:   "data/processed/training_and_dev/dev_Q_A.json"
+  validation_questions: "data/processed/validation/validation_questions.json"
+  validation_reference: "data/processed/validation/validation_reference.json"
+
+corpus:
+  training_dev_technotes: "data/processed/training_and_dev/training_dev_technotes.json"
+  full_corpus_bz2:         "data/raw/technote_corpus/full_technote_collection.txt.bz2"
+  full_corpus_sections:    "data/raw/technote_corpus/full_technote_collection.sections.json"
+
+chunking:
+  chunk_size: 512       # characters per chunk
+  chunk_overlap: 64     # character overlap between chunks
+  strategy: "paragraph" # options: paragraph, sentence, sliding_window

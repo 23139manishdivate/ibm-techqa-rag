@@ -1,0 +1,15 @@
+# Evaluation configuration
+
+evaluation:
+  script: "src/techqa_rag/evaluation/evaluation.py"
+  ground_truth_dev: "data/processed/training_and_dev/dev_Q_A.json"
+  ground_truth_val: "data/processed/validation/validation_reference.json"
+
+retrieval_metrics:
+  recall_at_k: [5, 10, 20, 50, 100]
+
+generation_metrics:
+  - token_f1
+  - exact_match
+
+output_dir: "results/evaluation"

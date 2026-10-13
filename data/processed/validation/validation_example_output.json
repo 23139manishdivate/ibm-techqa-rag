@@ -1,0 +1,645 @@
+{
+  "threshold": -0.5494693970828122,
+  "predictions": {
+    "VAL_Q000": [
+      {
+        "score": -0.020871767008868992,
+        "doc_id": "swg24042191",
+        "start_offset": 955,
+        "end_offset": 1057
+      },
+      {
+        "score": -1.769782377308606,
+        "doc_id": "swg21961858",
+        "start_offset": 1835,
+        "end_offset": 903
+      },
+      {
+        "score": 0.22682949541054645,
+        "doc_id": "swg21961858",
+        "start_offset": 1160,
+        "end_offset": 47
+      },
+      {
+        "score": 0.7463589295573081,
+        "doc_id": "swg21984451",
+        "start_offset": 1473,
+        "end_offset": 1346
+      },
+      {
+        "score": -1.0812727816613974,
+        "doc_id": "swg21980056",
+        "start_offset": 1809,
+        "end_offset": 360
+      }
+    ],
+    "VAL_Q001": [
+      {
+        "score": -0.5389157848011454,
+        "doc_id": "swg21976157",
+        "start_offset": 87,
+        "end_offset": 901
+      },
+      {
+        "score": 0.5429657295084257,
+        "doc_id": "swg1IV60378",
+        "start_offset": 758,
+        "end_offset": 940
+      },
+      {
+        "score": 0.7560401684300169,
+        "doc_id": "swg21968787",
+        "start_offset": 310,
+        "end_offset": 514
+      },
+      {
+        "score": 1.782918003191784,
+        "doc_id": "swg21967805",
+        "start_offset": 444,
+        "end_offset": 699
+      },
+      {
+        "score": 1.282630578305892,
+        "doc_id": "swg21984598",
+        "start_offset": 195,
+        "end_offset": 555
+      }
+    ],
+    "VAL_Q002": [
+      {
+        "score": 0.6699645336499515,
+        "doc_id": "swg21978390",
+        "start_offset": 706,
+        "end_offset": 860
+      },
+      {
+        "score": -0.11366785814161252,
+        "doc_id": "swg1PK17890",
+        "start_offset": 265,
+        "end_offset": 347
+      },
+      {
+        "score": -0.6893675069129686,
+        "doc_id": "swg22004390",
+        "start_offset": 834,
+        "end_offset": 1657
+      },
+      {
+        "score": 0.9918240258796976,
+        "doc_id": "swg21978390",
+        "start_offset": 903,
+        "end_offset": 810
+      },
+      {
+        "score": -2.913060742954321,
+        "doc_id": "swg21461830",
+        "start_offset": 1131,
+        "end_offset": 140
+      }
+    ],
+    "VAL_Q003": [
+      {
+        "score": -0.4754301571966829,
+        "doc_id": "swg21981434",
+        "start_offset": 446,
+        "end_offset": 838
+      },
+      {
+        "score": 1.1139518679968807,
+        "doc_id": "swg21663259",
+        "start_offset": 384,
+        "end_offset": 602
+      },
+      {
+        "score": 1.4841755744860285,
+        "doc_id": "swg1LO60567",
+        "start_offset": 546,
+        "end_offset": 972
+      },
+      {
+        "score": 0.1518099744829019,
+        "doc_id": "swg1IZ24819",
+        "start_offset": 389,
+        "end_offset": 930
+      },
+      {
+        "score": -1.6216652623120353,
+        "doc_id": "swg21325184",
+        "start_offset": 660,
+        "end_offset": 694
+      }
+    ],
+    "VAL_Q004": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.6777673871789919,
+        "doc_id": "swg1PI20755",
+        "start_offset": 828,
+        "end_offset": 871
+      },
+      {
+        "score": -0.73700072653286,
+        "doc_id": "swg21477254",
+        "start_offset": 58,
+        "end_offset": 197
+      },
+      {
+        "score": -0.904092260134378,
+        "doc_id": "swg21903620",
+        "start_offset": 686,
+        "end_offset": 904
+      },
+      {
+        "score": 0.48116531206160623,
+        "doc_id": "swg21483570",
+        "start_offset": 263,
+        "end_offset": 456
+      }
+    ],
+    "VAL_Q005": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.5452339977398134,
+        "doc_id": "swg21696207",
+        "start_offset": 236,
+        "end_offset": 934
+      },
+      {
+        "score": 0.5486511221487177,
+        "doc_id": "swg21575695",
+        "start_offset": 704,
+        "end_offset": 991
+      },
+      {
+        "score": -0.7464076567986769,
+        "doc_id": "swg21444705",
+        "start_offset": 726,
+        "end_offset": 832
+      },
+      {
+        "score": 0.11886918276328073,
+        "doc_id": "swg1PM75611",
+        "start_offset": 387,
+        "end_offset": 834
+      }
+    ],
+    "VAL_Q006": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": -0.37319579373523154,
+        "doc_id": "swg1PI21914",
+        "start_offset": 779,
+        "end_offset": 911
+      },
+      {
+        "score": -0.3208485391407241,
+        "doc_id": "swg21260098",
+        "start_offset": 571,
+        "end_offset": 598
+      },
+      {
+        "score": -0.10378381142117751,
+        "doc_id": "swg21495688",
+        "start_offset": 47,
+        "end_offset": 972
+      },
+      {
+        "score": 0.47574315240672904,
+        "doc_id": "swg21574665",
+        "start_offset": 800,
+        "end_offset": 975
+      }
+    ],
+    "VAL_Q007": [
+      {
+        "score": 2.3184741492289827,
+        "doc_id": "swg21414805",
+        "start_offset": 0,
+        "end_offset": 13
+      },
+      {
+        "score": 0.7227436957168984,
+        "doc_id": "swg24033298",
+        "start_offset": 100,
+        "end_offset": 326
+      },
+      {
+        "score": -0.1532175350394219,
+        "doc_id": "swg21625776",
+        "start_offset": 125,
+        "end_offset": 143
+      },
+      {
+        "score": 0.4657536535596643,
+        "doc_id": "swg21641166",
+        "start_offset": 80,
+        "end_offset": 362
+      },
+      {
+        "score": -0.7801015872061329,
+        "doc_id": "swg21613117",
+        "start_offset": 32,
+        "end_offset": 366
+      }
+    ],
+    "VAL_Q008": [
+      {
+        "score": -0.4274852086774957,
+        "doc_id": "swg21412061",
+        "start_offset": 184,
+        "end_offset": 284
+      },
+      {
+        "score": -1.5244773101511724,
+        "doc_id": "swg1IT17125",
+        "start_offset": 58,
+        "end_offset": 106
+      },
+      {
+        "score": -1.0567859974770495,
+        "doc_id": "swg21642721",
+        "start_offset": 140,
+        "end_offset": 129
+      },
+      {
+        "score": 0.46602003984825147,
+        "doc_id": "swg1LI77490",
+        "start_offset": 24,
+        "end_offset": 488
+      },
+      {
+        "score": 0.6934705070969674,
+        "doc_id": "swg21388551",
+        "start_offset": 40,
+        "end_offset": 321
+      }
+    ],
+    "VAL_Q009": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.7916794929186682,
+        "doc_id": "swg1IO10900",
+        "start_offset": 641,
+        "end_offset": 904
+      },
+      {
+        "score": -0.4942309397751652,
+        "doc_id": "swg21516175",
+        "start_offset": 49,
+        "end_offset": 917
+      },
+      {
+        "score": -0.49506792030628927,
+        "doc_id": "swg21347234",
+        "start_offset": 204,
+        "end_offset": 706
+      },
+      {
+        "score": -0.5310678455001944,
+        "doc_id": "swg21121437",
+        "start_offset": 537,
+        "end_offset": 556
+      }
+    ],
+    "VAL_Q010": [
+      {
+        "score": 2.0767556985025304,
+        "doc_id": "swg21317981",
+        "start_offset": 4675,
+        "end_offset": 5074
+      },
+      {
+        "score": -0.43474131145530565,
+        "doc_id": "swg21584591",
+        "start_offset": 2665,
+        "end_offset": 4764
+      },
+      {
+        "score": 1.8611367257164473,
+        "doc_id": "swg21500625",
+        "start_offset": 5241,
+        "end_offset": 6854
+      },
+      {
+        "score": 1.025194228473201,
+        "doc_id": "swg21500772",
+        "start_offset": 7574,
+        "end_offset": 8933
+      },
+      {
+        "score": -0.9783801767271677,
+        "doc_id": "swg21678024",
+        "start_offset": 2864,
+        "end_offset": 3483
+      }
+    ],
+    "VAL_Q011": [
+      {
+        "score": 2.002953482810143,
+        "doc_id": "swg21577379",
+        "start_offset": 4067,
+        "end_offset": 4221
+      },
+      {
+        "score": 0.41605892812696554,
+        "doc_id": "nas8N1020536",
+        "start_offset": 2497,
+        "end_offset": 2521
+      },
+      {
+        "score": -0.5390527855033277,
+        "doc_id": "swg21626849",
+        "start_offset": 7342,
+        "end_offset": 624
+      },
+      {
+        "score": -1.9374481781248098,
+        "doc_id": "swg1IZ88091",
+        "start_offset": 7789,
+        "end_offset": 398
+      },
+      {
+        "score": -0.195068875639184,
+        "doc_id": "swg1IZ34556",
+        "start_offset": 1542,
+        "end_offset": 2667
+      }
+    ],
+    "VAL_Q012": [
+      {
+        "score": 1.0175582559098169,
+        "doc_id": "swg21573300",
+        "start_offset": 395,
+        "end_offset": 40
+      },
+      {
+        "score": -1.6745712409761657,
+        "doc_id": "swg21959930",
+        "start_offset": 1116,
+        "end_offset": 230
+      },
+      {
+        "score": -1.8249490500405046,
+        "doc_id": "swg22015160",
+        "start_offset": 37,
+        "end_offset": 1081
+      },
+      {
+        "score": 0.5570891223993636,
+        "doc_id": "swg21675248",
+        "start_offset": 79,
+        "end_offset": 1835
+      },
+      {
+        "score": 2.0206531464154933,
+        "doc_id": "swg21967763",
+        "start_offset": 824,
+        "end_offset": 1192
+      }
+    ],
+    "VAL_Q013": [
+      {
+        "score": 2.209495808717249,
+        "doc_id": "swg21665766",
+        "start_offset": 2287,
+        "end_offset": 2732
+      },
+      {
+        "score": -0.29209090366945817,
+        "doc_id": "swg21587707",
+        "start_offset": 3854,
+        "end_offset": 1676
+      },
+      {
+        "score": 0.06586341433390448,
+        "doc_id": "swg27023697",
+        "start_offset": 4374,
+        "end_offset": 4505
+      },
+      {
+        "score": -0.9925541670338925,
+        "doc_id": "swg21578211",
+        "start_offset": 3906,
+        "end_offset": 592
+      },
+      {
+        "score": 0.7828909603635994,
+        "doc_id": "swg21646410",
+        "start_offset": 1063,
+        "end_offset": 889
+      }
+    ],
+    "VAL_Q014": [
+      {
+        "score": 0.7521138843103179,
+        "doc_id": "swg21138332",
+        "start_offset": 609,
+        "end_offset": 1042
+      },
+      {
+        "score": -0.2149950841039308,
+        "doc_id": "swg1PK69798",
+        "start_offset": 343,
+        "end_offset": 41
+      },
+      {
+        "score": 0.19271046080125664,
+        "doc_id": "swg24027718",
+        "start_offset": 1211,
+        "end_offset": 48
+      },
+      {
+        "score": -0.7362761292350712,
+        "doc_id": "swg27019072",
+        "start_offset": 967,
+        "end_offset": 1513
+      },
+      {
+        "score": -0.7934247824769064,
+        "doc_id": "swg21644062",
+        "start_offset": 732,
+        "end_offset": 1987
+      }
+    ],
+    "VAL_Q015": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.6691457216260269,
+        "doc_id": "swg1PK95407",
+        "start_offset": 631,
+        "end_offset": 741
+      },
+      {
+        "score": -0.953278374006991,
+        "doc_id": "swg1PM03338",
+        "start_offset": 543,
+        "end_offset": 999
+      },
+      {
+        "score": 0.5801808494116407,
+        "doc_id": "swg21054392",
+        "start_offset": 143,
+        "end_offset": 416
+      },
+      {
+        "score": 1.2232196293588047,
+        "doc_id": "swg21244931",
+        "start_offset": 175,
+        "end_offset": 289
+      }
+    ],
+    "VAL_Q016": [
+      {
+        "score": -0.259926969253939,
+        "doc_id": "swg21502095",
+        "start_offset": 387,
+        "end_offset": 1535
+      },
+      {
+        "score": -0.008949269817729479,
+        "doc_id": "swg21599241",
+        "start_offset": 398,
+        "end_offset": 483
+      },
+      {
+        "score": 1.1770416725767738,
+        "doc_id": "swg21677736",
+        "start_offset": 675,
+        "end_offset": 1702
+      },
+      {
+        "score": -1.0412809985574543,
+        "doc_id": "swg21650384",
+        "start_offset": 59,
+        "end_offset": 1174
+      },
+      {
+        "score": -0.20930986318579728,
+        "doc_id": "swg21452630",
+        "start_offset": 445,
+        "end_offset": 1928
+      }
+    ],
+    "VAL_Q017": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.623530648023424,
+        "doc_id": "swg21299287",
+        "start_offset": 329,
+        "end_offset": 513
+      },
+      {
+        "score": 0.31508767811970323,
+        "doc_id": "swg21957998",
+        "start_offset": 893,
+        "end_offset": 990
+      },
+      {
+        "score": 0.7087439690234543,
+        "doc_id": "swg21299525",
+        "start_offset": 151,
+        "end_offset": 238
+      },
+      {
+        "score": -0.40266009241141804,
+        "doc_id": "swg21657128",
+        "start_offset": 292,
+        "end_offset": 560
+      }
+    ],
+    "VAL_Q018": [
+      {
+        "doc_id": "-",
+        "score": -1,
+        "start_offset": -1,
+        "end_offset": -1
+      },
+      {
+        "score": 0.5597430172150655,
+        "doc_id": "swg21659582",
+        "start_offset": 338,
+        "end_offset": 568
+      },
+      {
+        "score": -0.09743082866051275,
+        "doc_id": "swg1JR56208",
+        "start_offset": 159,
+        "end_offset": 645
+      },
+      {
+        "score": -0.22021750732504813,
+        "doc_id": "swg1IC83550",
+        "start_offset": 182,
+        "end_offset": 383
+      },
+      {
+        "score": 0.9598162691773403,
+        "doc_id": "swg1IO25101",
+        "start_offset": 536,
+        "end_offset": 584
+      }
+    ],
+    "VAL_Q019": [
+      {
+        "score": 0.6552713783915155,
+        "doc_id": "swg21700397",
+        "start_offset": 29,
+        "end_offset": 355
+      },
+      {
+        "score": 1.4840633800740832,
+        "doc_id": "swg21903029",
+        "start_offset": 41,
+        "end_offset": 238
+      },
+      {
+        "score": 1.583389685746736,
+        "doc_id": "swg21699722",
+        "start_offset": 9,
+        "end_offset": 67
+      },
+      {
+        "score": 0.3652407194714051,
+        "doc_id": "swg21700720",
+        "start_offset": 7,
+        "end_offset": 491
+      },
+      {
+        "score": 0.0827228550294959,
+        "doc_id": "swg21959306",
+        "start_offset": 21,
+        "end_offset": 616
+      }
+    ]
+  }
+}

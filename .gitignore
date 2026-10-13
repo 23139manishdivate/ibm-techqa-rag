@@ -1,0 +1,80 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDE / OS ─────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets & credentials ────────────────────────────────────────────────────
+.env
+*.env
+*.key
+*.pem
+secrets/
+kaggle.json
+
+# ── Large dataset files (multi-GB, local only) ───────────────────────────────
+data/raw/technote_corpus/full_technote_collection.sections.json
+data/raw/technote_corpus/full_technote_collection.txt.bz2
+data/raw/technote_corpus/technotes.id_title_text
+data/raw/technote_corpus/technotes.text
+data/processed/training_and_dev/training_dev_technotes.json
+data/processed/training_and_dev/training_dev_technotes.sections.json
+
+# ── Large artefacts (local only, listed in ARTIFACT_REGISTRY.md) ─────────────
+artifacts/indexes/
+artifacts/embeddings/
+artifacts/chunks/
+artifacts/rankings/
+
+# ── Backups (local only) ─────────────────────────────────────────────────────
+backups/
+
+# ── Model cache ──────────────────────────────────────────────────────────────
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# ── Misc large extensions ────────────────────────────────────────────────────
+*.pkl
+*.index
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.bz2
+*.parquet
+
+# ── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/

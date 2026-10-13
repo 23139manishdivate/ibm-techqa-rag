@@ -1,0 +1,31 @@
+name: techqa-rag
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - cudatoolkit=12.1          # Remove / change for CPU-only machines
+  - pip:
+    - torch>=2.1.0
+    - transformers>=4.40.0
+    - sentence-transformers>=3.0.0
+    - accelerate>=0.29.0
+    - bitsandbytes>=0.43.0
+    - faiss-gpu>=1.7.4         # Use faiss-cpu on machines without CUDA
+    - rank-bm25>=0.2.2
+    - numpy>=1.26.0
+    - pandas>=2.2.0
+    - scipy>=1.13.0
+    - rouge-score>=0.1.2
+    - nltk>=3.8.1
+    - tqdm>=4.66.0
+    - pyyaml>=6.0.1
+    - jsonlines>=4.0.0
+    - python-dotenv>=1.0.0
+    - jupyter>=1.0.0
+    - ipywidgets>=8.1.0
+    - matplotlib>=3.8.0
+    - seaborn>=0.13.0
